@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Este espacio te permitirá registrar tus datos</h1>        
+    </div>
+    <div>
+        <a href="index.html">Inicio</a>
+        <ul>
+            <li>
+                <a href="registro.html">Registrar</a>
+            </li>
+            <li>
+                <a href="consulta.html">Consultar</a>
+            </li>
+            <li>
+                <a href="#">xd</a>
+            </li>
+        </ul>
+    </div>
+    <h2>Registre sus datos</h2>
+    <div>
+        <form action="" id="formularioRegistro"></form>
+        <label>Identificacion</label>
+            <input type="text" id="identificacion"><br>
+            <label>Nombre</label>
+            <input type="text" id="nombre"><br>
+            <label>Edad</label>
+            <input type="number" id="edad"><br>
+            <label>Genero</label><br>
+            <select id="sexo">
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+            </select><br>
+            <input id="btnEnviar" type="button"  value="Guardar" onclick="guardarPersona()">
+            <script type="text/javascript" src="registro.js"></script>
+    </div>
+</body>
+</html>
